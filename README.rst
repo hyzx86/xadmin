@@ -138,6 +138,7 @@ Run Demo Locally
 
     cd demo_app
     ./manage.py migrate
+    ./manage.py createsuperuser
     ./manage.py runserver
 
 Open http://127.0.0.1:8000 in your browser, the admin user password is ``admin``
